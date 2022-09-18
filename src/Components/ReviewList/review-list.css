@@ -38,10 +38,12 @@
   transition: var(--transition);
   cursor: pointer;
 }
+
 .review-list__prev-btn:hover,
 .review-list__next-btn:hover {
   color: var(--clr-primary-5);
 }
+
 .review-list__random-btn {
   margin-top: 0.5rem;
   background: var(--clr-primary-10);
@@ -53,6 +55,7 @@
   border-color: var(--clr-primary-5);
   cursor: pointer;
 }
+
 .review-list__random-btn:hover {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
