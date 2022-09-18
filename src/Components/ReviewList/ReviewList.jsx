@@ -1,13 +1,12 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { FcNext, FcPrevious } from "react-icons/fc";
 import Review from "../Review/Review";
 
 import { reviews } from "./local-data";
 
-import "./reviews.css";
+import "./review-list.css";
 
-function Reviews() {
+function ReviewList() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [img, setImg] = useState(reviews[currentIndex].img);
   const [name, setName] = useState(reviews[currentIndex].name);
@@ -72,4 +71,4 @@ function Reviews() {
   );
 }
 
-export default Reviews;
+export default ReviewList;

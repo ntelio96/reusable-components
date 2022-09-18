@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Reviews from "./Components/ReviewList/Reviews";
+import ReviewList from "./Components/ReviewList/ReviewList";
 
 function App() {
   return (
     <>
-      <Reviews />
+      <ReviewList />
     </>
   );
 }
